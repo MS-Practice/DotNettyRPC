@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28306.52
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8EA1A26-EA0A-4647-A69F-48204A7AA9A0}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNettyRPC", "src\DotNettyRPC\DotNettyRPC.csproj", "{20203900-CE4A-4B88-A006-82DF4F9D9A12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WebClient", "examples\WebClient\03.WebClient.csproj", "{E91D2C7B-CF16-42BF-866B-2EC453228F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CoreServer", "04.CoreServer\04.CoreServer.csproj", "{10F8D2DE-71F5-45D6-BC1D-12F65C30541A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CoreClient", "05.CoreClient\05.CoreClient.csproj", "{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{E91D2C7B-CF16-42BF-866B-2EC453228F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E91D2C7B-CF16-42BF-866B-2EC453228F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E91D2C7B-CF16-42BF-866B-2EC453228F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F8D2DE-71F5-45D6-BC1D-12F65C30541A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F8D2DE-71F5-45D6-BC1D-12F65C30541A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F8D2DE-71F5-45D6-BC1D-12F65C30541A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F8D2DE-71F5-45D6-BC1D-12F65C30541A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +65,8 @@ Global
 		{1DF0C97E-BF52-42D4-87DA-36025C34CDAB} = {16DEE8FC-5EDE-42DF-9386-528F579C166D}
 		{20203900-CE4A-4B88-A006-82DF4F9D9A12} = {A8EA1A26-EA0A-4647-A69F-48204A7AA9A0}
 		{E91D2C7B-CF16-42BF-866B-2EC453228F34} = {16DEE8FC-5EDE-42DF-9386-528F579C166D}
+		{10F8D2DE-71F5-45D6-BC1D-12F65C30541A} = {16DEE8FC-5EDE-42DF-9386-528F579C166D}
+		{DCF2D8E2-BF6C-44BD-8BA8-6872AAC30127} = {16DEE8FC-5EDE-42DF-9386-528F579C166D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {777B6C86-08A0-4823-83C5-4DE00B557828}

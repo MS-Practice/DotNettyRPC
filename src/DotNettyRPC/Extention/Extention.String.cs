@@ -38,7 +38,14 @@ namespace Coldairarrow.Util
         /// <returns></returns>
         public static object ToObject(this string jsonStr, Type type)
         {
-            return JsonConvert.DeserializeObject(jsonStr, type);
+            try
+            {
+                return JsonConvert.DeserializeObject(jsonStr, type);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         /// <summary>

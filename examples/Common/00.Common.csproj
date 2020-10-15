@@ -43,7 +43,11 @@
   <ItemGroup>
     <Compile Include="Hello.cs" />
     <Compile Include="IHello.cs" />
+    <Compile Include="Imps\BasicDataRpcService.cs" />
+    <Compile Include="Interfaces\IBasicDataRpcService.cs" />
+    <Compile Include="Messages\StageMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
